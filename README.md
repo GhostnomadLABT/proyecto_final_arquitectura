@@ -89,6 +89,10 @@ sobre caracteristicas de arquitectura:
   El uso de plantillas HTML para la presentación y rutas Flask para la lógica de control asegura que la lógica de negocio esté 
   bien separada de la interfaz de usuario, siguiendo el principio de separación de intereses.
 
+--Configurabilidad y Despliegue:
+  La aplicación permite una configuración externa a través del archivo config.py, lo que facilita la adaptación del software a 
+  diferentes entornos sin necesidad de cambiar el código fuente, lo cual es ideal para despliegues en diferentes entornos.
+
 # ¿Si la aplicacion migrara a una arquitectura de microservicios, ¿Cuales serian el top 5 de caracteristicas de arquitectura? Justifica tu respuesta
 --Desacoplamiento:
   Los microservicios estarían diseñados para ser altamente desacoplados y autónomos. Cada servicio gestionaría una parte 
